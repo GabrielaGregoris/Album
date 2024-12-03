@@ -1,4 +1,10 @@
 /* General Styles */
+@font-face {
+  font-family: "Keep on Truckin";
+  src: url(".../fonts/KeeponTruckin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   font-family: "Keep on Truckin", sans-serif;
   margin: 0;
@@ -100,6 +106,16 @@ h1, h2 {
     color: #fff;
     text-align: center;
   }
+
+  .single .album-cover {
+    max-width: 100%;  /* Makes the image responsive */
+    max-height: 250px; /* Limits the height */
+    width: auto;      /* Keeps the width proportional */
+    height: auto;     /* Maintains the aspect ratio */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
   
   .album-section h2 {
     font-family: 'Feneon', sans-serif;
@@ -257,8 +273,7 @@ footer {
 }
 .card {
     /* display: flex; */
-    background-color:rgb(184 97, 35);
-}
+    /* background-color:rgb(184 97, 35);*/
 /* .reversed-card {
     flex-direction: row-reverse;
 }
