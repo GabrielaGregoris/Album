@@ -5,6 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 body {
   font-family: "Keep on Truckin", sans-serif;
   margin: 0;
@@ -61,9 +62,18 @@ h1, h2 {
 
 .hero-section .album-cover {
   background: #333;
-  width: 200px;
-  height: 200px;
+  max-width: 100%;  /* Makes the image responsive */
+  height: auto;     /* Maintains aspect ratio */
   margin: 0 auto;
+  border-radius: 8px; /* Optional for style */
+}
+
+.hero-section .album-cover img {
+  width: 100%;
+  height: auto;
+  max-width: 150px; /* Restricts maximum width */
+  max-height: 150px; /* Restricts maximum height */
+  border-radius: 8px; /* Optional for style */
 }
 
 .hero-section h1 {
@@ -99,72 +109,70 @@ h1, h2 {
 }
 
 /* Album Section */
-/* Album Section Styles */
 .album-section {
-    padding: 20px;
-    background-color: #121212;
-    color: #fff;
-    text-align: center;
-  }
+  padding: 20px;
+  background-color: #121212;
+  color: #fff;
+  text-align: center;
+}
 
-  .single .album-cover {
-    max-width: 100%;  /* Makes the image responsive */
-    max-height: 250px; /* Limits the height */
-    width: auto;      /* Keeps the width proportional */
-    height: auto;     /* Maintains the aspect ratio */
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  }
-  
-  
-  .album-section h2 {
-    font-family: 'Feneon', sans-serif;
-    font-size: 2.5rem;
-    color: #ffcc00;
-    margin-bottom: 20px;
-  }
-  
-  /* Song Card Styles */
-  .songs {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-  }
-  
-  .song {
-    background-color: #1e1e1e;
-    padding: 15px;
-    border-radius: 8px;
-    width: 200px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-  }
-  
-  .song p {
-    font-family: 'Keep on Truckin', sans-serif;
-    font-size: 1rem;
-    color: #f5f5f5;
-    margin: 5px 0;
-  }
-  
-  /* Song Cover Image Styling */
-  .song-cover img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px; /* Makes the corners rounded */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow */
-    margin-bottom: 10px; /* Adds spacing below the image */
-  }
-  
-  /* Controls Styling */
-  .controls span {
-    font-size: 1.2rem;
-    color: #ffcc00;
-    margin: 0 5px;
-    cursor: pointer;
-  }
-  
+.single .album-cover {
+  max-width: 100%;  /* Makes the image responsive */
+  max-height: 250px; /* Limits the height */
+  width: auto;      /* Keeps the width proportional */
+  height: auto;     /* Maintains the aspect ratio */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.album-section h2 {
+  font-family: 'Feneon', sans-serif;
+  font-size: 2.5rem;
+  color: #ffcc00;
+  margin-bottom: 20px;
+}
+
+/* Song Card Styles */
+.songs {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.song {
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.song p {
+  font-family: 'Keep on Truckin', sans-serif;
+  font-size: 1rem;
+  color: #f5f5f5;
+  margin: 5px 0;
+}
+
+/* Song Cover Image Styling */
+.song-cover img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Makes the corners rounded */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow */
+  margin-bottom: 10px; /* Adds spacing below the image */
+}
+
+/* Controls Styling */
+.controls span {
+  font-size: 1.2rem;
+  color: #ffcc00;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
 /* Merch Section */
 .merch-section {
   padding: 50px 20px;
@@ -192,6 +200,14 @@ h1, h2 {
   height: 150px;
 }
 
+.merch-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional for style */
+  max-height: 150px; /* Restricts height */
+  object-fit: cover; /* Ensures image is properly cropped */
+}
+
 .merch-item p {
   font-family: "Keep on Truckin", sans-serif;
   margin: 5px 0;
@@ -217,22 +233,6 @@ footer {
 .social-links a {
   font-family: "Keep on Truckin", sans-serif;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
