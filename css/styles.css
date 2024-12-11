@@ -31,7 +31,7 @@ h1, h2 {
   align-items: center;
   padding: 20px 40px;
   background-color: #1a0033;
-  color: #ffdd00;
+  color: #ff0077; 
 }
 
 .main-header .logo {
@@ -48,64 +48,106 @@ h1, h2 {
 .nav-links li a {
   font-size: 14px;
   font-weight: bold;
-  color: #ffdd00;
+  color: #ff0077; 
   font-family: "Keep on Truckin", sans-serif;
 }
 
 /* Hero Section */
 .hero-section {
+  margin: 0;
+  padding: 0;
+}
+.hero-top h1 {
+  font-family: "Feneon", sans-serif;
+  color: #ffdd00; /* Bright yellow text */
+}
+.hero-top h2 {
+  font-family: "Acumin Variable Concept Ultra Wide Bold", sans-serif;
+  color: #fff; 
+}
+
+
+/* Navy background for the hero-top section */
+.hero-top {
   text-align: center;
   padding: 50px 20px;
-  background-color: #d4c7aa;
-  color: #ff0077;
-}
-
-.hero-section .album-cover {
-  background: #333;
-  max-width: 100%;  /* Makes the image responsive */
-  height: auto;     /* Maintains aspect ratio */
-  margin: 0 auto;
-  border-radius: 8px; /* Optional for style */
-}
-
-.hero-section .album-cover img {
-  width: 100%;
-  height: auto;
-  max-width: 150px; /* Restricts maximum width */
-  max-height: 150px; /* Restricts maximum height */
-  border-radius: 8px; /* Optional for style */
-}
-
-.hero-section h1 {
+  background-color: #1a0033; /* Navy background */
+  color: #ffdd00; /* Bright yellow text */
   font-family: "Feneon", sans-serif;
-  font-size: 48px;
-  margin: 10px 0;
 }
 
-.hero-section h2 {
-  font-family: "Acumin Variable Concept Ultra Wide Bold", sans-serif;
+.hero-top img {
+  width: 100%; /* Full-width image for responsiveness */
+  max-width: 600px; /* Optional max width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  border-radius: 8px; /* Optional for style */
+  margin: 20px auto; /* Centers and adds spacing */
+  display: block; /* Centers the image */
+}
+
+.hero-tagline {
+  font-family: "Keep on Truckin", sans-serif;
   font-size: 20px;
-  margin: 5px 0;
+  color: #ffdd00; /* Bright yellow text for visibility */
+  margin-top: 20px; /* Space below the image */
+}
+
+/* Beige background for the hero-bottom section */
+.hero-bottom {
+  background-color: #d4c7aa; /* Beige background */
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Spacing between CTAs */
+}
+
+
+/* CTA Section */
+.cta-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Increased gap for spacing */
+  margin-top: 20px;
 }
 
 .cta {
-  font-size: 18px;
-  font-family: "Keep on Truckin", sans-serif;
-  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; /* Adds space between the image and button */
 }
 
-.cta-links {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
+.cta img {
+  width: 300px; /* Square images */
+  height: 300px; /* Square images */
+  object-fit: cover;
+  border-radius: 8px; /* Optional for style */
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow */
+}
+
+.cta p {
+  font-family: "Keep on Truckin", sans-serif;
+  font-size: 16px;
+  color: #ff0077;
 }
 
 .cta-button {
-  background-color: #ff0077;
-  padding: 10px 20px;
-  color: #fff;
-  border-radius: 5px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  padding: 15px 30px; /* Larger padding for a bigger button */
+  font-size: 18px; /* Slightly larger text size */
+  cursor: pointer;
+  border-radius: 8px; /* Matches the rounded corners of the images */
+  text-align: center;
   font-family: "Keep on Truckin", sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+}
+
+.cta-button:hover {
+  background-color: #ff87c7; /* Slightly lighter shade for hover */
 }
 
 /* Album Section */
@@ -116,61 +158,19 @@ h1, h2 {
   text-align: center;
 }
 
-.single .album-cover {
-  max-width: 100%;  /* Makes the image responsive */
-  max-height: 250px; /* Limits the height */
-  width: auto;      /* Keeps the width proportional */
-  height: auto;     /* Maintains the aspect ratio */
+.album-cover img {
+  width: 200px;
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
 }
 
 .album-section h2 {
-  font-family: 'Feneon', sans-serif;
+  font-family: "Feneon", sans-serif;
   font-size: 2.5rem;
   color: #ffcc00;
   margin-bottom: 20px;
-}
-
-/* Song Card Styles */
-.songs {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.song {
-  background-color: #1e1e1e;
-  padding: 15px;
-  border-radius: 8px;
-  width: 200px;
-  text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.song p {
-  font-family: 'Keep on Truckin', sans-serif;
-  font-size: 1rem;
-  color: #f5f5f5;
-  margin: 5px 0;
-}
-
-/* Song Cover Image Styling */
-.song-cover img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px; /* Makes the corners rounded */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow */
-  margin-bottom: 10px; /* Adds spacing below the image */
-}
-
-/* Controls Styling */
-.controls span {
-  font-size: 1.2rem;
-  color: #ffcc00;
-  margin: 0 5px;
-  cursor: pointer;
 }
 
 /* Merch Section */
@@ -191,21 +191,18 @@ h1, h2 {
 }
 
 .merch-item {
-  text-align: center;
+  display: flex; /* Use Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; /* Center any text content */
 }
 
-.merch-image {
-  background: #333;
-  width: 100%;
-  height: 150px;
-}
-
-.merch-image img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px; /* Optional for style */
-  max-height: 150px; /* Restricts height */
-  object-fit: cover; /* Ensures image is properly cropped */
+.merch-item img {
+  width: 200px; /* width you want */
+  height: 200px; /* Make it square if needed */
+  object-fit: cover; /* Ensures the image fills the square */
+  border-radius: 8px; /* This will apply rounded corners */
+  margin-bottom: 10px;
 }
 
 .merch-item p {
@@ -226,15 +223,9 @@ footer {
   gap: 15px;
 }
 
-.footer-nav a {
+.footer-nav a, .social-links a {
   font-family: "Keep on Truckin", sans-serif;
 }
-
-.social-links a {
-  font-family: "Keep on Truckin", sans-serif;
-}
-
-
 
 
 
