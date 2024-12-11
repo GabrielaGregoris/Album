@@ -16,12 +16,20 @@ body {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: inherit; 
 }
 
 h1, h2 {
   text-transform: uppercase;
   text-align: center;
+}
+
+h1{
+  font size:60
+}
+
+h2{
+  font size:48
 }
 
 /* Header */
@@ -36,7 +44,7 @@ h1, h2 {
 
 .main-header .logo {
   font-family: "Acumin Variable Concept Ultra Wide Bold", sans-serif;
-  font-size: 24px;
+  font-size: 36px;
 }
 
 .nav-links {
@@ -46,7 +54,7 @@ h1, h2 {
 }
 
 .nav-links li a {
-  font-size: 14px;
+  font-size: 24px;
   font-weight: bold;
   color: #ff0077; 
   font-family: "Keep on Truckin", sans-serif;
@@ -88,7 +96,7 @@ h1, h2 {
 
 .hero-tagline {
   font-family: "Keep on Truckin", sans-serif;
-  font-size: 20px;
+  font-size: 34px;
   color: #ffdd00; /* Bright yellow text for visibility */
   margin-top: 20px; /* Space below the image */
 }
