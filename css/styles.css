@@ -24,7 +24,6 @@ h1, h2 {
   text-align: center;
 }
 
-
 /* Header */
 .main-header {
   display: flex;
@@ -58,17 +57,23 @@ h1, h2 {
   margin: 0;
   padding: 0;
 }
+
+/* Updated Hero Section Headings */
 .hero-top h1 {
   font-family: "Feneon", sans-serif;
   color: #ffdd00; /* Bright yellow text */
-  font-size: 85;
-}
-.hero-top h2 {
-  font-family: "Acumin Variable Concept Ultra Wide Bold", sans-serif;
-  color: #fff; 
-  font-size: 60;
+  font-size: 100px; /* Increased font size */
+  font-weight: bold;
+  margin-bottom: 20px; /* Spacing below */
 }
 
+.hero-top h2 {
+  font-family: "Acumin Variable Concept Ultra Wide Bold", sans-serif;
+  color: #fff; /* White text */
+  font-size: 60px; /* Increased font size */
+  font-weight: 400;
+  margin-bottom: 20px; /* Spacing below */
+}
 
 /* Navy background for the hero-top section */
 .hero-top {
@@ -104,7 +109,6 @@ h1, h2 {
   justify-content: center;
   gap: 40px; /* Spacing between CTAs */
 }
-
 
 /* CTA Section */
 .cta-section {
@@ -229,7 +233,6 @@ footer {
 .footer-nav a, .social-links a {
   font-family: "Keep on Truckin", sans-serif;
 }
-
 
 
 
