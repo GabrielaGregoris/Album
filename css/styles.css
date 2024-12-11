@@ -24,13 +24,6 @@ h1, h2 {
   text-align: center;
 }
 
-h1{
-  font-size: 60;
-}
-
-h2{
-  font-size: 48;
-}
 
 /* Header */
 .main-header {
@@ -68,10 +61,12 @@ h2{
 .hero-top h1 {
   font-family: "Feneon", sans-serif;
   color: #ffdd00; /* Bright yellow text */
+  font-size: 85;
 }
 .hero-top h2 {
   font-family: "Acumin Variable Concept Ultra Wide Bold", sans-serif;
   color: #fff; 
+  font-size: 60;
 }
 
 
