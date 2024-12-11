@@ -58,11 +58,11 @@ h1, h2 {
   padding: 0;
 }
 
-/* Updated Hero Section Headings */
+/* Hero Section Headings */
 .hero-top h1 {
   font-family: "Feneon", sans-serif;
   color: #ffdd00; /* Bright yellow text */
-  font-size: 100px; /* Increased font size */
+  font-size: 84px; /* Increased font size */
   font-weight: bold;
   margin-bottom: 20px; /* Spacing below */
 }
