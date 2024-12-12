@@ -202,13 +202,14 @@ h1, h2 {
   height: 300px;
   object-fit: cover;
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .merch-item p {
   font-size: 14px;
-  margin: 5px 0;
+  margin: 2px 0; /* Adjust margin as needed */
 }
+
 
 
 /* Footer */
