@@ -192,16 +192,22 @@ h1, h2 {
   gap: 20px;
 }
 
-.merch-grid img {
+.merch-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.merch-item img {
   width: 150px; /* Adjust the width as needed */
   height: 150px; /* Adjust the height as needed */
-  object-fit: cover; /* Ensures the image fills the container */
+  object-fit: cover;
   border-radius: 8px;
   margin-bottom: 10px;
 }
 
-.merch-grid p {
-  font-size: 14px; /* Adjust font size as needed */
+.merch-item p {
+  font-size: 14px;
   margin: 5px 0;
 }
 
