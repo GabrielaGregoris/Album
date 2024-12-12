@@ -199,7 +199,7 @@ h1, h2 {
 
 .merch-item img {
   width: 300px; /* Adjust width as needed */
-  height: 250px;
+  height: 300px;
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 10px;
