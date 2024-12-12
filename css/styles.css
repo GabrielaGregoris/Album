@@ -7,7 +7,10 @@
 }
 
 body {
-  font-family: "Keep on Truckin", sans-serif;
+  /*font-family: "Keep on Truckin", sans-serif;*/
+  font-family: duckie, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   margin: 0;
   padding: 0;
   background-color: #1a0033;
@@ -49,7 +52,10 @@ h1, h2 {
   font-size: 24px;
   font-weight: bold;
   color: #ff0077; 
-  font-family: "Keep on Truckin", sans-serif;
+  /*font-family: "Keep on Truckin", sans-serif;*/
+font-family: duckie, sans-serif;
+font-style: normal;
+font-weight: 400;
 }
 
 /* Hero Section */
@@ -135,7 +141,10 @@ h1, h2 {
 }
 
 .cta p {
-  font-family: "Keep on Truckin", sans-serif;
+  /*font-family: "Keep on Truckin", sans-serif;*/
+  font-family: duckie, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   color: #ff0077;
 }
@@ -226,7 +235,10 @@ footer {
 }
 
 .footer-nav a, .social-links a {
-  font-family: "Keep on Truckin", sans-serif;
+  /*font-family: "Keep on Truckin", sans-serif;*/
+  font-family: duckie, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
 
 
