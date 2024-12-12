@@ -198,8 +198,8 @@ h1, h2 {
 }
 
 .merch-item img {
-  width: 300px; /* Adjust width as needed */
-  height: 300px;
+  width: 400px; /* Adjust width as needed */
+  height: 350px;
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 5px;
