@@ -189,7 +189,7 @@ h1, h2 {
 .merch-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px; /* Adjust the gap as needed */
+  gap: 5px; /* Adjust the gap as needed */
 }
 
 .merch-item {
