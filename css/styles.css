@@ -195,7 +195,9 @@ h1, h2 {
 .merch-item {
   border: 1px solid #ccc;
   padding: 20px;
-  text-align: center;
+  display: flex; /* For vertical centering */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center content vertically */
 }
 
 .merch-item img {
@@ -203,10 +205,11 @@ h1, h2 {
   height: 150px;
   object-fit: cover;
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* Adjust spacing if needed */
 }
 
-.merch-item p {
+.merch-item-text {
+  text-align: center; /* Center text horizontally */
   font-size: 14px;
   margin: 5px 0;
 }
