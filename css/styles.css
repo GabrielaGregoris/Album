@@ -181,6 +181,7 @@ h1, h2 {
 }
 
 /* Merch Section */
+
 .merch-section {
   padding: 50px 20px;
 }
@@ -198,17 +199,17 @@ h1, h2 {
 }
 
 .merch-item {
-  display: flex; /* Use Flexbox for centering */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  text-align: center; /* Center any text content */
+  display: flex;
+  flex-direction: column; /* Make it a vertical column */
+  align-items: center;
+  text-align: center;
 }
 
 .merch-item img {
-  width: 200px; /* width you want */
-  height: 200px; /* Make it square if needed */
-  object-fit: cover; /* Ensures the image fills the square */
-  border-radius: 8px; /* This will apply rounded corners */
+  width: 150px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+  object-fit: cover;
+  border-radius: 8px;
   margin-bottom: 10px;
 }
 
