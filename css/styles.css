@@ -199,7 +199,7 @@ h1, h2 {
 }
 
 .merch-item img {
-  width: 100px;
+  width: 200px;
   height: auto; /* Automatically adjust height to maintain aspect ratio */
   object-fit: cover; /* Ensure image fills the container */
 }
