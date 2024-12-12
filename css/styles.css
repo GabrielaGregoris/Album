@@ -62,7 +62,7 @@ h1, h2 {
 .hero-top h1 {
   font-family: "Feneon", sans-serif;
   color: #ffdd00; /* Bright yellow text */
-  font-size: 85px; /* Increased font size */
+  font-size: 50px; /* Increased font size */
   font-weight: bold;
   margin-bottom: 20px; /* Spacing below */
 }
