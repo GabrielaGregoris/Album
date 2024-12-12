@@ -206,8 +206,8 @@ h1, h2 {
 }
 
 .merch-item img {
-  width: 150px; /* Adjust the width as needed */
-  height: 150px; /* Adjust the height as needed */
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 10px;
