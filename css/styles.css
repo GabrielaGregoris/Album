@@ -193,12 +193,14 @@ h1, h2 {
 }
 
 .merch-item {
+  border: 1px solid #ccc;
+  padding: 20px;
   text-align: center;
 }
 
 .merch-item img {
   width: 150px; /* Adjust the width as needed */
-  height: 150px; /* Adjust the height as needed */
+  height: 150px;
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 10px;
